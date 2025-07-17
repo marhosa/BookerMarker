@@ -42,3 +42,17 @@ a Mini 3-day project.
 
 ## App Preview
 <img src="https://github.com/user-attachments/assets/5a9a1913-4941-4a90-873f-08e23bb4481b" width = "500px">
+
+
+
+
+
+
+
+
+<img width="1447" height="863" alt="image" src="https://github.com/user-attachments/assets/20f53456-2cd8-4bc5-87be-20e3e6ca5fa1" />
+
+
+
+<img width="1367" height="843" alt="image" src="https://github.com/user-attachments/assets/fb929512-f4b9-460a-ae3a-768bcfe577f4" />
+
