@@ -97,11 +97,11 @@ a Mini 3-day project.
 - Except, make sure to name the Database as `bookermarker`
 - and run the query below to make the database:
 
-<pre> ```sql 
+<pre>
 CREATE TABLE bookmarks ( 
   id INT AUTO_INCREMENT PRIMARY KEY, 
   title VARCHAR(255), 
   imageurl TEXT, 
   page INT, 
   rating VARCHAR(255) ); 
-  ``` </pre>
+  </pre>
