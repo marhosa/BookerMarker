@@ -1,0 +1,133 @@
+.filterContainer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.filterContainer-textInput{
+    margin: 0;
+    height: 30px;
+    width: 80%;
+    font-size: 20px;
+    border-radius: 20px;
+    padding-left: 5px;
+    background-color: whitesmoke;
+}
+
+.filterContainer-textInput:hover{
+    transition: cubic-bezier(.27,0,0,.99) 0.5s;
+    transform: scale(1.02);
+}
+
+.filtersText{
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.ratingText{
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.alphaText{
+    margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+
+.RatingContainer{
+    width: 70%;
+}
+
+.AlphaContainer{
+    width: 70%;
+}
+
+.RatingContainerButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alphaContainerButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.r_asc{
+    font-size: 1.2vw;
+    padding: 10px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.r_asc:hover{
+    transition: cubic-bezier(.27,0,0,.99) 0.5s;
+    transform: scale(1.1);
+}
+
+.r_desc{
+    font-size: 1.2vw;
+    padding: 10px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.r_desc:hover{
+    transition: cubic-bezier(.27,0,0,.99) 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+.a_asc{
+    font-size: 1.2vw;
+    padding: 10px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.a_asc:hover{
+    transition: cubic-bezier(.27,0,0,.99) 0.5s;
+    transform: scale(1.1);
+}
+
+.a_desc{
+    font-size: 1.2vw;
+    padding: 10px;
+    width: 30%;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+.a_desc:hover{
+    transition: cubic-bezier(.27,0,0,.99) 0.5s;
+    transform: scale(1.1);
+}
+
+.selected{
+    background-color: rgb(208, 255, 220);
+    transform: scale(1.1);
+}
+

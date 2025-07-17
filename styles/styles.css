@@ -1,0 +1,99 @@
+
+/*
+https://colorhunt.co/palette/222831393e46948979dfd0b8
+*/
+
+
+
+
+
+body{
+    background-color: #efefef;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    transform: scale(1vw);
+}
+
+
+
+.BookmarksViewer-mainContainer{
+    background-color: #070018;
+    padding: 50px;
+    border-radius: 50px;
+    margin-right: 50px;
+    margin-top: 4em;
+    width: 66%;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.BookmarksViewer-emptyWarning{
+    color: whitesmoke;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+  background: black;
+  color: white; 
+}
+
+
+
+.mainDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.AddButton-Button{
+    height: 90px;
+    width: 80%;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #070018;
+    color: azure;
+    border-radius: 30px;
+}
+
+.AddButton-Button:hover{
+    transition: cubic-bezier(.27,0,0,.99) 0.5s;
+    transform: scale(1.05);
+    background-color: #3c0044;
+    color: #a6d4ff;
+    cursor: pointer;
+}
+
+.buttonContainers{
+    padding-top: 10em;
+    display: flex;
+    
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+}
+
+
+
+.DatabaseError-main{
+    font-size: 60px;
+    padding: 10px;
+    width: 60%;
+    margin: 50px;
+    color: white;
+    background-color: #070018;
+    border-radius: 30px;
+}
+
+.loadingtext{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 50px;
+}

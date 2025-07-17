@@ -1,0 +1,28 @@
+.mainTextonTop{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 140px;
+    width: 80%;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+
+}
+
+.mainTitle{
+    font-size: 100px;
+    font-family: sans-serif, Arial, Helvetica;
+    font-weight: bold;
+    margin: 1px;
+    margin-top: 1;
+    margin-bottom: 0;
+}
+
+.mainDesc{
+    font-size: 30px;
+    margin: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}

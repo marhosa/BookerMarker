@@ -1,0 +1,224 @@
+.maincontainer{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: rgb(49, 48, 48);
+    min-width: 200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    border-radius: 30px;
+    font-size: 40px;
+    color: white
+}
+
+.titleinput{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 70%;
+    height: 20%;
+}
+
+.titleinput-width {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+
+.pageimage{
+    display: flex;
+    font-size: 1.6vw;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.pageinput, .imageinput {
+    display: flex;
+    flex-direction: column;
+    width:25%;
+    height: 100%;
+}
+
+.pageinput-input, .imageinput-input {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.pageinput-input{
+    font-size: 25px;
+    width: 60%;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 7%;
+}
+
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    height: 60px;
+}
+
+.rating-value{
+    margin: 0;
+
+    
+}
+
+.rating-value-title{
+    margin-right: 10px;
+}
+
+
+.buttoncontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    gap: 20px;
+    height: 40px;
+}
+
+.buttoncontainer input{
+    width: 6vw;
+    font-size: 1.3vw;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.buttoncontainer input.update {
+    background-color: rgb(0, 110, 0);
+    color: white;
+    border: none;
+}
+
+.buttoncontainer input.update:hover {
+    transform: scale(1.2);
+    background-color: rgb(0, 194, 26);
+    transition: transform 0.2s cubic-bezier(.29, -0.49, .03, .98);
+}
+
+.buttoncontainer input.delete {
+    background-color: rgb(119, 0, 0);
+    color: white;
+    border: none;
+}
+
+.buttoncontainer input.delete:hover {
+    background-color: rgb(233, 73, 73);
+    transform: scale(1.2);
+    transition: transform 0.2s cubic-bezier(.29, -0.49, .03, .98);
+}
+
+
+
+
+
+
+/* imported from random sources*/
+
+.rating-slider {
+    margin: 0 auto;
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* WebKit (Chrome, Safari) */
+.rating-slider {
+    margin: 0 auto;
+    width: 70%;
+    height: 20px;
+    -webkit-appearance: none;
+    background: rgb(204, 204, 204);
+    border-radius: 10px;
+}
+
+/* WebKit (Chrome, Safari) */
+.rating-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 35%; /* squircle */
+    background: rgb(5, 4, 3);
+    cursor: pointer;
+    margin-top: -6px; /* Center it vertically */
+}
+
+.rating-slider::-webkit-slider-thumb:hover {
+    transform: scale(2);
+    background-color: beige;
+    transition: transform 1s cubic-bezier(.29, -0.49, .03, .98), 
+            background-color 1s cubic-bezier(.29, -0.49, .03, .98);
+
+    
+}
+
+/* Firefox */
+.rating-slider::-moz-range-thumb {
+    height: 18px;
+    width: 18px;
+    border-radius: 35%; /* squircle */
+    background: rgb(12, 10, 6);
+    cursor: pointer;
+}
+
+/* Track styling */
+.rating-slider::-webkit-slider-runnable-track {
+    height: 6px;
+    border-radius: 10px;
+    background: rgb(204, 204, 204);
+}
+
+.rating-slider::-moz-range-track {
+    height: 6px;
+    border-radius: 10px;
+    background: rgb(204, 204, 204);
+}
+
+
+.backButton{
+    margin-top: 4%;
+    margin-left: 70%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.backButton:hover {
+    background-color: rgb(173, 169, 169);
+    color: rgb(5, 3, 3);
+    transform: scale(1.2);
+    transition: transform 0.2s cubic-bezier(.29, -0.49, .03, .98);
+}
