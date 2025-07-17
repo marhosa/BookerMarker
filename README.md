@@ -61,7 +61,7 @@ a Mini 3-day project.
 - First just search online a cool image you want to add.
 - Then `Rightclick` and click on `copy image address`.
 
-<img src ="https://github.com/user-attachments/assets/ac5f4a40-875b-4457-b593-bda6e1b7e0fc" width = "300px">
+<img src ="https://github.com/user-attachments/assets/ac5f4a40-875b-4457-b593-bda6e1b7e0fc" width = "500px">
 
 - Then simply paste the image on the `ImageURL` text box.
 
