@@ -44,9 +44,11 @@ a Mini 3-day project.
 <img src="https://github.com/user-attachments/assets/5a9a1913-4941-4a90-873f-08e23bb4481b" width = "500px">
 
 
+![ezgif-740a8b8262c572](https://github.com/user-attachments/assets/ac5f4a40-875b-4457-b593-bda6e1b7e0fc)
 
 
 
+<img width="381" height="117" alt="image" src="https://github.com/user-attachments/assets/e93dd064-ef4d-4f4b-953b-6c7e34ea4f7e" />
 
 
 
@@ -55,4 +57,10 @@ a Mini 3-day project.
 
 
 <img width="1367" height="843" alt="image" src="https://github.com/user-attachments/assets/fb929512-f4b9-460a-ae3a-768bcfe577f4" />
+
+
+
+
+
+
 
