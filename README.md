@@ -89,5 +89,19 @@ a Mini 3-day project.
 - Or click on Delete to fully delete the Bookmark
 
 
+### Errors
+- If you encounter errors because of the database despite doing everything, you can try creating your own database.
+ 
+ #### making your own database
+- First, simply follow the steps in [THIS tutorial Video.](https://www.youtube.com/watch?v=Y77SRDhWu0Q)
+- Except, make sure to name the Database as `bookermarker`
+- and run the query below to make the database:
 
-
+<pre> ```sql 
+CREATE TABLE bookmarks ( 
+  id INT AUTO_INCREMENT PRIMARY KEY, 
+  title VARCHAR(255), 
+  imageurl TEXT, 
+  page INT, 
+  rating VARCHAR(255) ); 
+  ``` </pre>
