@@ -5,11 +5,9 @@ a Mini 3-day project.
 
 ## Stack:
 #### Front End:
-- HTML, CSS, JS
-- React
+- HTML, CSS, JS, React
 #### Back End:
-- MySql
-- Php
+- MySql, Php
 
 
 ## Downloads:
@@ -39,27 +37,56 @@ a Mini 3-day project.
 - Open your browser and go to:  
   `http://localhost/BookerMarkerWebApp`
 
+<br>
 
-## App Preview
+## How to Use
+### Main Page
+- Below will be your Main Page.
 <img src="https://github.com/user-attachments/assets/5a9a1913-4941-4a90-873f-08e23bb4481b" width = "500px">
 
-
-![ezgif-740a8b8262c572](https://github.com/user-attachments/assets/ac5f4a40-875b-4457-b593-bda6e1b7e0fc)
-
-
-
-<img width="381" height="117" alt="image" src="https://github.com/user-attachments/assets/e93dd064-ef4d-4f4b-953b-6c7e34ea4f7e" />
+- Click on ADD to add a bookmark.
+- You can search and sort by rating or alphabetically.
+- Click on a Card if you wan't to Delete or Update it.
 
 
+### Adding Bookmarks
+- If you clicked on the `ADD` button on the main menu, this will appear.
+<img src="https://github.com/user-attachments/assets/20f53456-2cd8-4bc5-87be-20e3e6ca5fa1" width = "500px">
 
-<img width="1447" height="863" alt="image" src="https://github.com/user-attachments/assets/20f53456-2cd8-4bc5-87be-20e3e6ca5fa1" />
+- Simply input your Title and Page.
+- You can use the slider to give your own personal rating.
+
+#### Adding Bookmarks — Image URL
+- You can paste direct image links online to add an image to your Bookmark.
+- First just search online a cool image you want to add.
+- Then `Rightclick` and click on `copy image address`.
+
+<img src ="https://github.com/user-attachments/assets/ac5f4a40-875b-4457-b593-bda6e1b7e0fc" width = "300px">
+
+- Then simply paste the image on the `ImageURL` text box.
+
+<img src = "https://github.com/user-attachments/assets/e93dd064-ef4d-4f4b-953b-6c7e34ea4f7e" width = "170px">
+
+- If the image URL is invalid or If you did not add any image URL, then it will simply display an empty image.
+
+<img src = "https://github.com/user-attachments/assets/b7b85327-ffe7-4951-9998-5f60c71899b7" width = "150px">
 
 
 
-<img width="1367" height="843" alt="image" src="https://github.com/user-attachments/assets/fb929512-f4b9-460a-ae3a-768bcfe577f4" />
+<br>
+<br>
 
 
 
+
+### Updating/Deleting Cards
+- First, go to the `Main Menu`
+- Then Simply click on a card that you wan't to select for deletion/update.
+- Below would be something that you should encounter.
+<img src="https://github.com/user-attachments/assets/fb929512-f4b9-460a-ae3a-768bcfe577f4" width = "500px">
+
+- Then you can simply click on update after you have done saving some changes such as Changing the Rating, Title, ImageURL.
+- Or click on Delete to fully delete the Bookmark
 
 
 
